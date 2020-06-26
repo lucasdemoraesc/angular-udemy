@@ -1,0 +1,6 @@
+<p>menu works!</p>
+{{ test }}
+<div>
+	<button (click)="ficarBem()" *ngIf="test === 'All bad :('">Melhorar</button>
+	<button (click)="ficarPior()" *ngIf="test === 'All fine :)'">Piorar</button>
+</div>
